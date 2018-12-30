@@ -6,6 +6,10 @@ security.
 A simple NodeJS CLI application where you can enter a password that you want to
 practice and you can do this continuesly until you think you know the password.
 
+The demo below uses the password `test123`.
+
+[demo](demo.gif)
+
 # Getting started
 
 ```
