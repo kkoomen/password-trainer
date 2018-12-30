@@ -8,7 +8,7 @@ practice and you can do this continuesly until you think you know the password.
 
 The demo below uses the password `test123`.
 
-[demo](demo.gif)
+![demo](demo.gif)
 
 # Getting started
 
