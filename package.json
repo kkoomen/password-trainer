@@ -1,0 +1,16 @@
+{
+  "name": "password-trainer",
+  "version": "1.0.0",
+  "description": "Enter your password once and train yourself until it is in your muscles!",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "prompt": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {},
+  "author": "Kim K",
+  "license": "MIT"
+}
