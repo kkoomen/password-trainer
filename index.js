@@ -34,23 +34,23 @@ function testPassword(len = initPasswordLength) {
       password: {
         hidden: true,
         description: len >= password.length
-          ? `Enter your full password (${amountOfFullPasswordPrompts + 1}/3)`
-          : `Enter the first ${len} characters of your password`,
+          ? colors.white(`Enter your full password ${colors.grey(`(${amountOfFullPasswordPrompts + 1}/3)`)}`)
+          : colors.white(`Enter the first ${colors.yellow(len)} characters of your password`),
         replace: '*',
         required: true,
       },
     },
   }, (err, result) => {
     if (err) {
-      console.log('ERR!', err);
-      console.log('Exiting prompt');
+      console.log('ERR!', colors.red(err));
+      console.log(colors.red('Exiting prompt'));
       process.exit(1);
     }
 
     if (result.password === password.substring(0, len)) {
-      console.log('Correct!');
+      console.log(colors.green('Correct!'));
     } else {
-      console.log('Incorrect, try again.');
+      console.log(colors.red('Incorrect, try again.'));
       return testPassword(len);
     }
 
