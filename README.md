@@ -3,8 +3,9 @@
 Train yourself to remember difficult passwords and improve your personal
 security.
 
-A simple NodeJS CLI application where you can enter a password that you want to
-practice and you can do this continuesly until you think you know the password.
+A simple NodeJS command-line application where you can enter a password that you
+want to practice and you can do this continuesly until you think you know the
+password.
 
 The demo below uses the password `test123`.
 
